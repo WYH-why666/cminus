@@ -1,0 +1,13 @@
+int main;
+float calculate_sum;
+void process_data;
+
+int a;
+int abc;
+int a1b2c3;
+int _test;    // 这个可能不被识别为合法标识符
+int test_var;
+int long_variable_name_123;
+
+int ifelse;   // 测试关键字是否会被误识别为标识符
+int whileloop;

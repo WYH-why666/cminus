@@ -1,0 +1,17 @@
++ - * / < <= > >= == != = ;
+, ( ) [ ] { } 
+
+int test_operators(int x, int y) {
+    int result = 0;
+    
+    if (x == y) result = 1;
+    if (x != y) result = 2;
+    if (x < y) result = 3;
+    if (x <= y) result = 4;
+    if (x > y) result = 5;
+    if (x >= y) result = 6;
+    
+    result = result + x - y * x / y;
+    
+    return result;
+}
