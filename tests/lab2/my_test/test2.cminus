@@ -1,0 +1,5 @@
+void fun(void){
+int n;
+n=1;
+n++;
+}

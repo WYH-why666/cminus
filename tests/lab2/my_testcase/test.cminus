@@ -1,0 +1,19 @@
+int fun(int n){
+	return n*2;
+}
+
+int main(void) {
+	int a;
+	int b;
+	float c;
+	a=1+2*3;
+	b=(1+2)*3;
+	if(2>1){
+		a=a+1;
+	}
+	else b=b+1;
+	while(a>1){
+		a=a-1;
+	}
+	return fun(b);
+}
